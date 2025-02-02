@@ -1,9 +1,9 @@
 function Greeting({ name }) {
 	return (
-		<>
+		<div className="p-2 m-2 border-2 border-indigo-500">
 			<Hello name={name} />
 			<Bye name={name} />
-		</>
+		</div>
 	);
 }
 
