@@ -1,19 +1,13 @@
 "use client";
-import Greeting, { Hello, Bye } from "@/components/Greeting.jsx";
-import NameList from "@/components/Names.jsx";
-import Counter from "@/components/Counter";
-import ConditionalGreeting from "@/components/ConditionalRendering";
-import { useState } from "react";
+import Link from "next/link";
 
 function Home() {
-  // Conditional Rendering
-
-
 
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center">
-
-
+      Home Page
+      <Link href="/about">About</Link>
+      <Link href="/contact">Contact</Link>
     </div>
   );
 }
